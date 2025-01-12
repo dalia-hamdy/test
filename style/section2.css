@@ -1,0 +1,56 @@
+
+.line{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-block: 6px;
+
+}
+h5 {
+    font-weight: 400;
+    color: var(--blue-color);
+    font-size: 1.5em;
+    display: flex; /* لجعل النص والخط يظهران بجانب بعض */
+    align-items: center; /* محاذاة رأسية للنص */
+    gap: 10px;
+}
+
+h5::before {
+    content: ''; /* ضروري لإظهار الخط */
+    display: inline-block; /* لعرض الخط بجانب النص */
+    width: 100px; /* عرض الخط */
+    height: 2px; /* سماكة الخط */
+    background-color: var(--blue-color); /* لون الخط */
+}
+.section-text{
+    width: 50%;
+    font-size: 2.4em;
+    font-weight: 43.5em;
+}
+
+.section-text p{color: var(--blue-color);}
+.section-text p:nth-of-type(2) span{color: var(--orange-color);
+    
+}
+.arrow{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    justify-content: end;
+
+}
+.arrow svg{
+    width: 49px;
+    height: 49px;
+    border-radius:50% ;
+    border: 1px solid ;
+    align-items: center;
+    justify-content: center;
+    color: #818181;
+}
+.arrow-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
