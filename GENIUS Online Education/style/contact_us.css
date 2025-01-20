@@ -1,0 +1,200 @@
+.about-section{
+    margin-top: 6em;
+}
+
+.about-form {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.baout-herader-text h4{
+    font-weight: 400;
+
+}
+.about-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.5em
+
+}
+
+.about-name2{  display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.6em;
+    border: 0;
+
+}
+.about-name2 input:not(.message),button{
+    border-radius: .5em;
+    width:39.9em ;
+    height:3.5em ;
+        border: 0;
+        border: 1px solid #ccc;
+        padding-right: 1em;
+
+    
+}
+button{
+    background: var(--orange-color);
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.about-name input  {
+    width: 19em;
+    height:3.5em ;
+    border-radius: .5em;
+    margin-bottom: 3.5em;
+    border: 1px solid #ccc;
+    padding-right: 1em;
+
+
+}
+.about-header-form{display: flex;
+    gap:4.4em;
+    margin-top: 3em;
+}
+.about-mail{
+    display: flex;
+    gap:26px;
+    flex-direction: column;
+}
+.message{
+    width: 39.9em;
+    height: 12.75em;
+    padding-right: 1em;
+    border: 0;
+    border: 1px solid #ccc;
+}
+.map{
+    width: 23em;
+    height: 21em;
+    background-color: #EAEAEA;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: .5em;
+}
+.baout-herader-text h4{
+    color: var(--orange-color);
+    font-weight: 700;
+    font-size: 5.1em;
+}
+.baout-herader-text h4 span{
+    color: var(--primary-color);
+}
+.adress{
+    color: #818181;
+}
+ 
+    .about-mail h3{
+        color: #818181;
+font-weight: 400;
+font-size: 2.5em;
+    }
+
+    .social{
+        display: flex;
+        gap:2.5em
+    }
+
+    .footer-top2{
+        margin-top: 3em;
+        background: var(--orange-color);
+        margin-inline:5.6em;
+        border-radius: .5em;
+        padding-inline: 5.8em;
+        padding-block: 2em;
+
+    }
+    .footer-top3{
+     
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .footer-adress{color: var(--white-color);
+        gap:1em
+    }
+    .fotter-logo2{
+        gap:1em ;display: flex;
+        flex-direction: column;
+        gap:2em;
+    }
+
+    
+
+.went {
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:2em;
+}
+.footer-ligo-left{
+    display: flex;justify-content: space-between;
+    gap: 12em;
+}
+
+.went a {color: var(--white-color);
+font-size: 1em; font-weight: 400;}
+
+.went h4{
+    font-size: 1em; font-weight: 700;
+    color: var(--white-color);
+
+}
+
+
+.footer-bottom2{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 1em;
+    color: var(--white-color);
+    border-top: 2px solid white;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 5em;
+
+}
+
+@media (max-width: 768px) {
+    .about-header-form {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .about-name {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .footer-top2 {
+        flex-direction: column;
+        margin-inline: 1em;
+        padding-inline: 1em;
+        padding-block: 1em;
+    }
+
+    .footer-ligo-left {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .map {
+        width: 100%;
+        height: 15em;
+    }
+
+    .baout-herader-text h4 {
+        font-size: 2em;
+    }
+
+    .went {
+        gap: 1em;
+    }
+}

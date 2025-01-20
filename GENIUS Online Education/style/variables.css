@@ -1,6 +1,7 @@
 :root {
     --orange-color:#F04B25;
     --yellow-color:#F5A805;
+    --dark-color:#000;
     --yellow-color-25:#F4A90540;
     --primary-color:#12376B;
     --secondary-color:#F5F5F5;
@@ -9,4 +10,7 @@
     --gray-color-card-text:#686868;
     --card-image-layer:#F04B2526;
     --white-color:#fff;
+    --gray-light:#12376B40;
+    --baby-blue:#286CD540;
+    --pink-color:#F04B2540;
 }

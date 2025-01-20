@@ -22,3 +22,15 @@ a {
 p{
     line-height: 1.75;
 }
+.yellow-color {
+    color: var(--yellow-color);
+}
+.blue-color {
+    color: var(--blue-color);
+}
+.primary-color {
+    color: var(--primary-color);
+}
+.orange-color {
+    color: var(--orange-color) !important;
+}
