@@ -1,0 +1,89 @@
+{
+    "movies": [
+        {"id":1,
+            "title": "The Transporter",
+            "slug":"Transporter",
+            "year": 2002,
+            "director": "Louis Leterrier",
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 6.8,
+            "cast": [
+                "Jason Statham",
+                "Shu Qi",
+                "Matt Schulze"
+            ],
+            "url":"https://media.istockphoto.com/id/1820554955/video/film-burns-4k.mp4?s=mp4-640x640-is&k=20&c=77XXzp3tmybaCiCbfR7MSF0NJFUUE-4HLjZhQpsVO_Q=" ,
+
+            "duration": "92 min",
+
+            "poster": "https://tse4.mm.bing.net/th?id=OIP.lQre4Elf09rk82nanB_LDQHaL2&pid=Api"
+
+        },
+        {"id":2,
+            "title": "Crank",
+            "slug":"Crank",
+            "year": 2006,
+            "director": "Mark Neveldine",
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 6.9,
+            "cast": [
+                "Jason Statham",
+                "Amy Smart",
+                "Carlos Sanz"
+            ],
+            "url":"https://media.istockphoto.com/id/1820554955/video/film-burns-4k.mp4?s=mp4-640x640-is&k=20&c=77XXzp3tmybaCiCbfR7MSF0NJFUUE-4HLjZhQpsVO_Q=" ,
+            "duration": "88 min",
+            "poster": "https://tse2.mm.bing.net/th?id=OIP.7lz4K59JaBCnBDK_eIBuzwHaLH&pid=Api"
+        },
+        {"id":3,
+            "title": "The Mechanic",
+            "slug":"Mechanic",
+
+            "year": 2011,
+            "director": "Simon West",
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 6.6,
+            "cast": [
+                "Jason Statham",
+                "Ben Foster",
+                "Donald Sutherland"
+            ],
+            "duration": "93 min",
+            "poster": "https://tse1.mm.bing.net/th?id=OIP.SCt8RWBy--hrMbFXlrXSnQHaLH&pid=Api"
+        },
+        {"id":4,
+            "title": "Safe",
+            "slug":"Safe",
+
+            "year": 2012,
+            "director": "Boaz Yakin",
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 6.5,
+            "cast": [
+                "Jason Statham",
+                "Catherine Chan",
+                "Chris Sarandon"
+            ],
+            "url":"https://media.istockphoto.com/id/1767115972/video/timelapse-above-moving-fast-thick-fog-amazing-nature-landscape-4k-sky-timelapse.mp4?s=mp4-640x640-is&k=20&c=rP1lQzr5rom4InnO_sdJPtTVriqvJIWmCXPUMTd8VXw=" ,
+
+            "duration": "94 min",
+            "poster": "https://tse4.mm.bing.net/th?id=OIP.wkDWpNsp6ZeKkc8tqsGsOAHaEK&pid=Api"
+        },
+        {
+            "title": "Parker",
+            "slug": "Parker",
+
+            "year": 2013,
+            "director": "Taylor Hackford",
+            "genre": ["Action", "Crime", "Thriller"],
+            "rating": 6.2,
+            "cast": [
+                "Jason Statham",
+                "Jennifer Lopez",
+                "Michael Chiklis"
+            ],
+            "duration": "118 min",
+            "poster": "https://tse2.mm.bing.net/th?id=OIP.qZzrJ0t_Z1RqoDLR_oEPWwHaK-&pid=Api"
+        }
+    ]
+}
